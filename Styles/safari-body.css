@@ -1,0 +1,204 @@
+.main {
+    width: 900px;
+    height: 600px;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+}
+
+.main-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    color: black;
+}
+
+.main-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.title1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.sign-up {
+    border: none;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    background-color: rgb(2, 194, 2);
+    color: white;
+}
+
+.sign-up:hover {
+    cursor: pointer;
+}
+
+.sign-up:active {
+    opacity: 0.8;
+}
+
+.left-body {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.main-right {
+    color: rgb(177, 177, 177);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.login {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left:20px;
+    color: black;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.username {
+    border: none;
+    margin-top: 50px;
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: rgb(70, 70, 70);
+    padding: 5px 15px;
+    font-size: large;
+}
+
+.username:focus {
+    outline: none;
+}
+
+.sector , .safariid{
+    border: none;
+    margin-top: 20px;
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: rgb(70, 70, 70);
+    padding: 5px 15px;
+    font-size: large;
+}
+
+.sector:focus , .safariid:focus {
+    outline: none;   
+}
+
+.vehicle{
+    border: none;
+    margin-top: 30px;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: rgb(70, 70, 70);
+    padding: 5px 15px;
+    font-size: large;
+}
+
+.login-button {
+    border: none;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: rgb(70, 70, 70);
+    font-size: large;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.login-button:active {
+    opacity: 0.8;
+}
+
+.trademark {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 23vh;
+}
+
+.form-error{
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.form-success{
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.ticket{
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ticket2 , .ticket3 , .ticket4{
+    font-size: 30px;
+}
+
+.qr{
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.dec{
+    font-size: larger;
+}
+

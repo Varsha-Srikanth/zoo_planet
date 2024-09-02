@@ -1,0 +1,115 @@
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(0, 49, 0);
+}
+
+.logo{
+    padding-top: 5px;
+    width: 80px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titlename{
+    margin-left: 30px;
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+    color: white;
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.header-home > a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-contact{
+    margin-left: 30px;
+}
+
+.header-home:hover , .header-about:hover , .header-contact:hover , .account:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-img{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-image: url(./Images/profile.png);
+}
+
+.profile-img{
+    overflow: hidden;
+}
+
+.profile{
+    margin-left: 25px;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.profile:hover .logout{
+    visibility: visible;
+}
+
+.logout {
+    position: absolute;
+    right: 50px;
+    top: 75px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0.5;
+}
+
+.profile-intro{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.login{
+    color: inherit;
+    text-decoration: none;
+}
+
+.about{
+    color: inherit;
+    text-decoration: none;
+}

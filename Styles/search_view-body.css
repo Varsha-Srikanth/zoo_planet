@@ -1,0 +1,223 @@
+.main {
+    width: 900px;
+    min-height: 600px;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.left-body {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-left {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.title1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sign-up {
+    border: none;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    background-color: rgb(2, 194, 2);
+    color: white;
+}
+
+.sign-up:hover {
+    cursor: pointer;
+}
+
+.sign-up:active {
+    opacity: 0.8;
+}
+
+.left-body {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.main-right {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.username {
+    border: none;
+    margin-top: 50px;
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-width: 2px;
+    background-color: white;
+    color: rgb(177, 177, 177);
+    padding: 5px 15px;
+    font-size: large;
+}
+
+.username:focus {
+    outline: none;
+}
+
+.sector,
+.safariid {
+    border: none;
+    margin-top: 20px;
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-width: 2px;
+    background-color: white;
+    color: rgb(177, 177, 177);
+    padding: 5px 15px;
+    font-size: large;
+}
+
+.sector:focus,
+.safariid:focus {
+    outline: none;
+}
+
+.vehicle {
+    border: none;
+    margin-top: 30px;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-width: 2px;
+    background-color: white;
+    color: rgb(177, 177, 177);
+    padding: 5px 15px;
+    font-size: large;
+}
+
+.login-button {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-width: 2px;
+    background-color: white;
+    color: black;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.login-button:active {
+    opacity: 0.8;
+}
+
+.trademark {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 23vh;
+}
+
+.form-error {
+    margin-bottom: 20px;
+}
+
+.form-success {
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dec {
+    font-size: larger;
+}
+
+.result{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: black;
+    margin-top: 40px;   
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.result-fail{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: black;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.result-sectorID{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: black;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.rand{
+    color: black;
+    font-size: 15px;
+}
